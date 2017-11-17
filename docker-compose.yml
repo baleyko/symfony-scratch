@@ -2,7 +2,8 @@ version: "3"
 services:
   symfony:
     build: .
-    volumes:
-      - ".:/app"
+    # volumes:
+      # - ".:/app"
     ports:
-      - "80:80"
+      - "8011:80"
+    shm_size: 1G

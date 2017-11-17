@@ -1,3 +1,5 @@
 #!/usr/bin/env sh
 
-exec php -S 0.0.0.0:80 /app/web/app.php
+cp -r /app/* /dev/shm
+
+exec php -S 0.0.0.0:80 /dev/shm/web/app.php
