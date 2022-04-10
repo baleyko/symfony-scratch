@@ -10,7 +10,7 @@
   },
   "require": {
     "php": ">=8",
-    "symfony/symfony": "~5.4",
-    "symfony/framework-bundle": "~5.4"
+    "symfony/symfony": "~6.0",
+    "symfony/framework-bundle": "~6.0"
   }
 }
