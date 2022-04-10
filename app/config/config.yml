@@ -1,7 +1,7 @@
 framework:
     secret: '0123456789ABCDEF'
     router:
-      resource: "%kernel.root_dir%/config/routing.yml"
+      resource: "%kernel.project_dir%/app/config/routing.yml"
     # templating:
     #     engines:
     #         - php
