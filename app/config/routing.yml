@@ -1,4 +1,4 @@
 index:
   methods: ["GET"]
   path: /
-  controller: AppBundle\Controller\IndexController:indexAction
+  controller: AppBundle\Controller\IndexController::indexAction
