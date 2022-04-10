@@ -4,16 +4,16 @@ RUN  echo "@community https://nl.alpinelinux.org/alpine/edge/community" >> /etc/
   && apk -U add \
     libressl \
     ca-certificates \
-    php7@community \
-    php7-openssl@community \
-    php7-json@community \
-    php7-phar@community \
-    php7-mbstring@community \
-    php7-ctype@community \
-    php7-tokenizer@community \
-    php7-dom@community \
-    php7-xml@community \
-    php7-session@community \
+    php8@community \
+    php8-openssl@community \
+    php8-json@community \
+    php8-phar@community \
+    php8-mbstring@community \
+    php8-ctype@community \
+    php8-tokenizer@community \
+    php8-dom@community \
+    php8-xml@community \
+    php8-session@community \
  && rm -rf /var/cache/apk/* /tmp/*
 
 WORKDIR /app
